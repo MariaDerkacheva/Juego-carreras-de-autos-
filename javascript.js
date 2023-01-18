@@ -23,6 +23,7 @@ let varH3 = document.querySelector("h3")
 
 
 document.addEventListener("keyup",evento=> { 
+    console.log(evento)
    
     //********* auto rojo **********/
    if (evento.keyCode == "39") {
@@ -35,7 +36,7 @@ document.addEventListener("keyup",evento=> {
    }
 
     //********* auto azul **********/
-   if (evento.keyCode == "65") { // es la letra A
+   if (evento.keyCode == "87") { // es la letra W
         autoAzulDerecho()
 
         if (x >= "1650") {
