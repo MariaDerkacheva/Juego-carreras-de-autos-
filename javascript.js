@@ -22,7 +22,7 @@ let y = 0;
 let varH3 = document.querySelector("h3")
 
 
-document.addEventListener("keydown",evento=> { 
+document.addEventListener("keyup",evento=> { 
    
     //********* auto rojo **********/
    if (evento.keyCode == "39") {
@@ -47,7 +47,7 @@ document.addEventListener("keydown",evento=> {
 
  //********* auto rojo **********/
 function autoRojoDerecho() {
-    x= x + 150;
+    x= x + 5;
     autoRojo.style.marginLeft = x + "px";
 }
 
